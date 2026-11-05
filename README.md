@@ -53,6 +53,6 @@ git push origin main
 
 - Always pull before making changes.
 - Use clear commit messages.
-- Don't upload passwords or sensitive files.
+  
 - Coordinate with teammates when editing the same files.
 - If Git reports a conflict, resolve it before pushing.
