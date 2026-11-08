@@ -1,0 +1,7 @@
+,CV PR-AUC,train PR-AUC,CV ROC-AUC,CV balanced acc
+Always-pass (baseline),0.066 ± 0.002,0.066,0.500 ± 0.000,0.500 ± 0.000
+Best single sensor (Sensor_065),0.180 ± 0.071,0.147,0.562 ± 0.068,0.563 ± 0.052
+"Logistic, 12 sensors, no penalty",0.147 ± 0.040,0.233,0.659 ± 0.058,0.631 ± 0.052
+Ridge (best C),0.163 ± 0.048,0.304,0.691 ± 0.059,0.610 ± 0.052
+Lasso (best C),0.165 ± 0.049,0.509,0.687 ± 0.051,0.627 ± 0.048
+Lasso (one-SE C),0.168 ± 0.055,0.395,0.685 ± 0.052,0.631 ± 0.049
